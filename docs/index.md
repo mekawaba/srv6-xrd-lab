@@ -13,7 +13,6 @@
 | 04  | [SRv6 Flex-Algo](04-flex-algo/index.md)              |
 | 05  | [SRv6 EVPN VPWS](05-evpn-vpws/index.md)              |
 | 06  | [SRv6 EVPN ELAN](06-evpn-elan/index.md)              |
-| 07  | [SR-MPLS から SRv6 への移行](07-srmpls-to-srv6/index.md)   |
 
 
 
