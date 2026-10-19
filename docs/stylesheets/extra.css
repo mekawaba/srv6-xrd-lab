@@ -1,0 +1,15 @@
+.md-typeset pre.cli > code {
+  white-space: pre;
+  font-size: 0.72rem;
+  line-height: 1.45;
+}
+
+.md-typeset pre.cli mark {
+  background-color: #fff176;
+  color: #000;
+  padding: 0;
+}
+
+.md-typeset pre.cli strong {
+  color: var(--md-code-hl-keyword-color);
+}

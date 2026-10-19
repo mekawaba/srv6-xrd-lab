@@ -1,0 +1,6 @@
+site/
+.venv/
+__pycache__/
+.DS_Store
+*.docx
+docs/07-srmpls-to-srv6

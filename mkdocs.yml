@@ -1,0 +1,53 @@
+site_name: SRv6 ハンズオン
+site_description: SRv6 ハンズオン ラボガイド
+# GitHub Pages の公開 URL に合わせて変更してください
+# site_url: https://<github-user>.github.io/<repository>/
+
+nav:
+  - はじめに: index.md
+  - 01. SRv6 基本設定: 01-srv6-basic/index.md
+  - 02. SRv6 L3VPN: 02-l3vpn/index.md
+  - 03. SRv6-TE Explicit Path: 03-srv6te-explicit/index.md
+  - 04. SRv6 Flex-Algo: 04-flex-algo/index.md
+  - 05. SRv6 EVPN VPWS: 05-evpn-vpws/index.md
+  - 06. SRv6 EVPN ELAN: 06-evpn-elan/index.md
+  - 07. SR-MPLS から SRv6 への移行: 07-srmpls-to-srv6/index.md
+
+theme:
+  name: material
+  language: ja
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: ダークモードに切り替え
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: ライトモードに切り替え
+  features:
+    - navigation.footer
+    - navigation.top
+    - toc.follow
+    - search.highlight
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search:
+      lang: ja
+  - glightbox
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
